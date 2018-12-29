@@ -5,6 +5,6 @@ Fixed ath10k drivers for the Qualcomm Atheros QCA9377 card. After the latest upd
 ## Automatic
 I added a script that when run as root will automatically fix it for you :)
 ## Manual
-If you don't like other people's code running in your machine you can do it manually.But you can check the bash Script is just a small script that automates it for you. 
+If you don't like other people's code running in your machine you can do it manually. But you can check the bash Script is just a small script that automates it for you. 
 
 Substitute the folder QCA9377 in /lib/firmware/ath10k/ for the one in the repository, this should work. :)
