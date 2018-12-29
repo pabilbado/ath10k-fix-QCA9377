@@ -1,0 +1,11 @@
+#! /bin/bash
+echo "Remember to run as root, if you forgot run 'sudo !!'"
+echo "Fix QCA9377 Drivers - by Pabilbado"
+sleep 1s
+rm -r /lib/firmware/ath10k/QCA9377
+echo "Adding new changed drivers"
+cp -r ./QCA9377 /lib/firmware/ath10k/QCA9377
+sleep 1s
+echo "Please reboot your computer for the changes to take place."
+echo "Hope it worked :D"
+echo "Pabilbado"
